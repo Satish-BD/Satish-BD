@@ -1,10 +1,7 @@
-# <!-- ═══════════════════════  HEADER  ═══════════════════════ -->
+<!-- ═══════════════════════  HEADER  ═══════════════════════ -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,20:0a0a2e,50:0d1b4b,80:0d2137,100:58A6FF&height=220&section=header&text=PETA%20SATISH%20KUMAR&fontSize=48&fontColor=ffffff&fontAlignY=42&fontAlign=50&desc=Full%20Stack%20Developer%20%E2%80%A2%20API%20Architect%20%E2%80%A2%20Problem%20Solver&descSize=17&descAlignY=65&descColor=A0C4FF&animation=fadeIn" width="100%"/>
-
-<!-- ✦ STAR FIELD LAYER ✦ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&section=header" width="100%"/>
 
 <br/>
 
@@ -25,9 +22,6 @@
 </div>
 
 <br/>
-
-<!-- ✦ GALAXY DIVIDER ✦ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0a0a2e,100:0D1117&height=3&section=header" width="100%"/>
 
 <!-- ═══════════════════════  ABOUT  ═══════════════════════ -->
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0a0a2e,50:0d1b4b,100:0D1117&height=60&section=header&text=%3E%20about%20me&fontSize=22&fontColor=58A6FF&fontAlign=8&fontAlignY=60" width="100%"/>
@@ -81,93 +75,114 @@ passion    : Turning complex problems into elegant backend solutions
 
 <br/>
 
-<!-- ═══════════════════════  ANIMATED SPACE BACKGROUND SECTION  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0a0a2e,50:0d1b4b,100:0D1117&height=60&section=header&text=%3E%20highlights&fontSize=22&fontColor=58A6FF&fontAlign=10&fontAlignY=60" width="100%"/>
+<!-- ═══════════════════════  HIGHLIGHTS  ═══════════════════════ -->
 
-<!-- ✦ GALAXY NEBULA BACKGROUND STRIP ✦ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,30:0d0d40,60:0a1a3e,100:050520&height=8&section=header" width="100%"/>
+<!-- GALAXY ANIMATED SECTION HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020210,20:04042a,40:070740,60:0a0a52,80:0d0d6b,100:1a1aff&height=120&section=header&text=%3E%20highlights&fontSize=28&fontColor=58A6FF&fontAlign=12&fontAlignY=70&animation=twinkling" width="100%"/>
 
-<!-- ✦ ATOM / MOLECULE STRUCTURE (SVG via shield.io custom) ✦ -->
+<!-- ══ STARFIELD ROW — animated twinkling stars across full width ══ -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,20:030320,50:050535,80:030320,100:020210&height=55&section=header&text=✦%20%20%20%20✦%20%20%20%20%20%20✦%20%20%20%20%20%20%20%20✦%20%20%20%20%20%20✦%20%20%20%20%20✦%20%20%20%20%20%20%20✦%20%20%20%20%20%20✦%20%20%20%20✦%20%20%20%20%20%20%20%20✦%20%20%20%20%20✦%20%20%20%20%20%20✦%20%20%20%20✦&fontSize=14&fontColor=ffffff&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%"/>
+</div>
+
+<!-- ══ CARD 1 — API & BACKEND ══ -->
 <div align="center">
 
-<!-- Floating space orbs as background texture via readme images -->
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:020214,30:0a0a40,70:0d1b5e,100:020214&height=30&section=header&text=⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡&fontSize=14&fontColor=1a2a6c&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,20:04042a,50:08083a,80:0a0a4a,100:0d0d60&height=48&section=header&text=⚙️%20%20API%20%26%20Backend%20Engineering&fontSize=17&fontColor=58A6FF&fontAlign=50&fontAlignY=65&animation=twinkling" width="88%"/>
 
 </div>
 
-<!-- ✦ HIGHLIGHTS CARDS — GALAXY REDESIGN ✦ -->
-
-<table width="100%" style="border-collapse:separate; border-spacing:8px;">
-<tr>
-<td width="50%" valign="top" align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,50:0d1040,100:0a1a50&height=38&section=header&text=%E2%9A%99%EF%B8%8F%20%20API%20%26%20Backend%20Engineering&fontSize=14&fontColor=58A6FF&fontAlign=50&fontAlignY=60" width="100%"/>
-
-```
-  ✦  REST API design & development
-  ✦  FastAPI · Flask · Python
-  ✦  Auth systems & Role-Based Access
-  ✦  Third-party API integrations
-  ✦  File upload & processing systems
-  ✦  Resume generation systems
-```
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,50:0d1040,100:0a1a50&height=38&section=header&text=%F0%9F%97%84%EF%B8%8F%20%20Database%20%26%20Query%20Design&fontSize=14&fontColor=4DABCF&fontAlign=50&fontAlignY=60" width="100%"/>
-
-```
-  ✦  MySQL & relational design
-  ✦  Schema design & normalization
-  ✦  Query optimization
-  ✦  Relational data modeling
-```
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,50:0d1040,100:0a1a50&height=38&section=header&text=%F0%9F%93%8A%20%20Data%20%26%20Automation%20Systems&fontSize=14&fontColor=A0C4FF&fontAlign=50&fontAlignY=60" width="100%"/>
-
-```
-  ✦  Pandas · data cleaning & pipelines
-  ✦  OCR-based structured extraction
-  ✦  Excel & PDF data processing
-  ✦  UiPath automation workflows
-  ✦  Email automation on conditions
-  ✦  Power BI business dashboards
-```
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050520,50:0d0d50,100:0a0a30&height=38&section=header&text=%F0%9F%9A%80%20%20Currently%20Exploring&fontSize=14&fontColor=FFD700&fontAlign=50&fontAlignY=60" width="100%"/>
-
-```
-  ✦  System Design principles
-  ✦  Scalable distributed architectures
-  ✦  Cloud deployment strategies
-  ✦  Microservices patterns
-```
-
-</td>
-</tr>
-</table>
-
-<!-- ✦ GALAXY BOTTOM STRIP ✦ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050520,30:0a0a40,60:0d1b5e,100:050520&height=8&section=header" width="100%"/>
-
-<!-- ✦ STARS ROW DIVIDER ✦ -->
 <div align="center">
 
-![Stars](https://img.shields.io/badge/✦-0D1117?style=flat-square&labelColor=0D1117&color=0D1117)
-![](https://img.shields.io/badge/%E2%80%A2%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2-0a0a2e?style=flat-square&logoColor=58A6FF)
+| ✦ | Skill | Details |
+|:---:|:---|:---|
+| 🔵 | **REST API** | Design & Development |
+| 🔵 | **FastAPI · Flask** | Python Backend Frameworks |
+| 🔵 | **Auth Systems** | Role-Based Access Control |
+| 🔵 | **Integrations** | Third-party API Connections |
+| 🔵 | **File Systems** | Upload & Processing Pipelines |
+| 🔵 | **Resume Engine** | Generation & Export Systems |
 
 </div>
 
-<br/>
+<!-- ══ STARFIELD DIVIDER ══ -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,50:06063a,100:020210&height=18&section=header&text=·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·&fontSize=18&fontColor=334488&fontAlign=50&fontAlignY=65&animation=twinkling" width="88%"/>
+</div>
 
-<!-- ═══════════════════════  ANIMATED BANNER — SPACE THEME  ═══════════════════════ -->
+<!-- ══ CARD 2 — DATA & AUTOMATION ══ -->
 <div align="center">
 
-<!-- Galaxy / Nebula animated banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020214,15:05052a,35:0a0a3e,55:0d1555,75:0d2045,100:58A6FF&height=80&section=header&text=⚛%20atom%20%7C%20✦%20stars%20%7C%20🌌%20galaxy%20%7C%20◉%20orbit&fontSize=14&fontColor=A0C4FF&fontAlign=50&fontAlignY=65&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,20:04042a,50:050830,80:07093a,100:090b45&height=48&section=header&text=📊%20%20Data%20%26%20Automation%20Systems&fontSize=17&fontColor=A0C4FF&fontAlign=50&fontAlignY=65&animation=twinkling" width="88%"/>
 
 </div>
+
+<div align="center">
+
+| ✦ | Skill | Details |
+|:---:|:---|:---|
+| 🔵 | **Pandas** | Data Cleaning & Pipelines |
+| 🔵 | **OCR Engine** | Structured Data Extraction |
+| 🔵 | **Excel · PDF** | File Data Processing |
+| 🔵 | **UiPath** | Automation Workflows |
+| 🔵 | **Email Bot** | Condition-Based Automation |
+| 🔵 | **Power BI** | Business Intelligence Dashboards |
+
+</div>
+
+<!-- ══ STARFIELD DIVIDER ══ -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,50:06063a,100:020210&height=18&section=header&text=·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·&fontSize=18&fontColor=334488&fontAlign=50&fontAlignY=65&animation=twinkling" width="88%"/>
+</div>
+
+<!-- ══ CARD 3 — DATABASE ══ -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,20:04042a,50:060a38,80:08103a,100:0a1545&height=48&section=header&text=🗄️%20%20Database%20%26%20Query%20Design&fontSize=17&fontColor=4DABCF&fontAlign=50&fontAlignY=65&animation=twinkling" width="88%"/>
+
+</div>
+
+<div align="center">
+
+| ✦ | Skill | Details |
+|:---:|:---|:---|
+| 🔵 | **MySQL** | Relational Database Systems |
+| 🔵 | **Schema Design** | Normalization & Modeling |
+| 🔵 | **Query Optimization** | Performance Tuning |
+| 🔵 | **Data Modeling** | Relational Architecture |
+
+</div>
+
+<!-- ══ STARFIELD DIVIDER ══ -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,50:06063a,100:020210&height=18&section=header&text=·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·%20%20%20%20%20%20%20%20·%20%20%20%20%20%20·&fontSize=18&fontColor=334488&fontAlign=50&fontAlignY=65&animation=twinkling" width="88%"/>
+</div>
+
+<!-- ══ CARD 4 — EXPLORING ══ -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0800,20:1a1000,50:251800,80:1a1000,100:0f0800&height=48&section=header&text=🚀%20%20Currently%20Exploring&fontSize=17&fontColor=FFD700&fontAlign=50&fontAlignY=65&animation=twinkling" width="88%"/>
+
+</div>
+
+<div align="center">
+
+| ⭐ | Area | Focus |
+|:---:|:---|:---|
+| 🟡 | **System Design** | Architecture Principles |
+| 🟡 | **Distributed Systems** | Scalable Architectures |
+| 🟡 | **Cloud Deployment** | DevOps & Strategies |
+| 🟡 | **Microservices** | Design Patterns |
+
+</div>
+
+<!-- ══ GALAXY CLOSING STARFIELD ══ -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020210,20:030320,50:050535,80:030320,100:020210&height=40&section=header&text=✦%20%20%20%20%20%20%20✦%20%20%20%20%20%20%20%20%20%20✦%20%20%20%20%20%20%20✦%20%20%20%20%20%20%20%20%20%20✦%20%20%20%20%20%20%20✦%20%20%20%20%20%20%20%20%20%20✦%20%20%20%20%20%20%20✦&fontSize=14&fontColor=aaaaff&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%"/>
+</div>
+
+<!-- GALAXY ANIMATED CLOSING WAVE FOR HIGHLIGHTS -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1aff,20:0d0d6b,40:0a0a52,60:070740,80:04042a,100:020210&height=80&section=footer&animation=twinkling" width="100%"/>
 
 <br/>
 
@@ -211,5 +226,4 @@ passion    : Turning complex problems into elegant backend solutions
 
 </div>
 
-<!-- ✦ GALAXY FOOTER WAVE ✦ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,20:0a0a2e,50:0d1b4b,80:0d2137,100:58A6FF&height=140&section=footer&text=⚛%20✦%20🌌%20✦%20◉&fontSize=20&fontColor=1a2a6c&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,15:04042a,35:070740,55:0a0a52,75:0d0d6b,100:58A6FF&height=140&section=footer&animation=twinkling" width="100%"/>
