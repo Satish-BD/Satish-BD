@@ -1,12 +1,8 @@
 <div align="center">
 
-```
-╔═══════════════════════════════════════════════════════════╗
-║         PETA SATISH KUMAR  ·  Full Stack Developer        ║
-╚═══════════════════════════════════════════════════════════╝
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a2a4a,100:58A6FF&height=180&section=header&text=PETA%20SATISH%20KUMAR&fontSize=42&fontColor=ffffff&fontAlignY=45&desc=Full%20Stack%20Developer%20%E2%80%A2%20API%20Architect%20%E2%80%A2%20Problem%20Solver&descSize=16&descAlignY=68&descColor=8B949E&animation=fadeIn" width="100%"/>
 
-**`$ whoami`** → Python Developer · API Architect · Problem Solver
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=500&lines=%24+whoami+%E2%86%92+Backend+%7C+FastAPI+%7C+Python;%24+building+%E2%86%92+APIs+%2B+Automations+%2B+Dashboards;%24+learning+%E2%86%92+System+Design+%2B+Cloud)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/peta-satish-kumar/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:satishkumarp@aditya.ac.in)
@@ -126,5 +122,7 @@ Backend-focused developer who builds reliable, scalable systems. I specialize in
 *Clean code. Scalable systems. Continuous improvement.*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Satish-BD&color=58A6FF&style=flat-square&label=profile+views)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1a2a4a,100:0D1117&height=100&section=footer" width="100%"/>
 
 </div>
