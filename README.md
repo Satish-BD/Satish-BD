@@ -78,10 +78,58 @@ passion    : Turning complex problems into elegant backend solutions
 <br/>
 
 <!-- ═══════════════════════  HIGHLIGHTS  ═══════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20highlights&fontSize=22&fontColor=58A6FF&fontAlign=10&fontAlignY=60" width="100%"/>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Satish-BD/Satish-BD/main/highlights.svg" width="100%" alt="Highlights"/>
-</div>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/⚙️ API & Backend-0d2137?style=for-the-badge&logoColor=58A6FF"/>
+
+```
+  ✦  REST API design & development
+  ✦  FastAPI · Flask · Python
+  ✦  Auth systems & Role-Based Access
+  ✦  Third-party API integrations
+  ✦  File upload & processing systems
+  ✦  Resume generation systems
+```
+
+<img src="https://img.shields.io/badge/🗄️ Database-0d2137?style=for-the-badge"/>
+
+```
+  ✦  MySQL & relational design
+  ✦  Schema design & normalization
+  ✦  Query optimization
+  ✦  Relational data modeling
+```
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/📊 Data & Automation-0d2137?style=for-the-badge"/>
+
+```
+  ✦  Pandas · data cleaning & pipelines
+  ✦  OCR-based structured extraction
+  ✦  Excel & PDF data processing
+  ✦  UiPath automation workflows
+  ✦  Email automation on conditions
+  ✦  Power BI business dashboards
+```
+
+<img src="https://img.shields.io/badge/🚀 Currently Exploring-0d2137?style=for-the-badge"/>
+
+```
+  ✦  System Design principles
+  ✦  Scalable distributed architectures
+  ✦  Cloud deployment strategies
+  ✦  Microservices patterns
+```
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -90,24 +138,23 @@ passion    : Turning complex problems into elegant backend solutions
 
 <div align="center">
 
-<table>
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=Satish-BD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&count_private=true" height="160"/>
-</td>
-<td>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satish-BD&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&langs_count=8" height="160"/>
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Satish-BD&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&sideNums=ffffff" width="55%"/>
+<a href="https://github.com/Satish-BD">
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Satish-BD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&count_private=true&rank_icon=github"/>
+  &nbsp;
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satish-BD&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&langs_count=8"/>
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Satish-BD&bg_color=0D1117&color=58A6FF&line=1a6fe6&point=ffffff&area=true&hide_border=true&custom_title=Contribution+Activity" width="90%"/>
+<a href="https://github.com/Satish-BD">
+  <img width="60%" src="https://streak-stats.demolab.com?user=Satish-BD&theme=transparent&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&currStreakNum=ffffff&sideNums=ffffff&stroke=0D1117"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/Satish-BD">
+  <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Satish-BD&bg_color=0D1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&area_color=1a2a4a&hide_border=true&custom_title=Contribution%20Graph"/>
+</a>
 
 </div>
 
