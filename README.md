@@ -1,7 +1,10 @@
-<!-- ═══════════════════════  HEADER  ═══════════════════════ -->
+# <!-- ═══════════════════════  HEADER  ═══════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:0d2137,100:58A6FF&height=200&section=header&text=PETA%20SATISH%20KUMAR&fontSize=48&fontColor=ffffff&fontAlignY=42&fontAlign=50&desc=Full%20Stack%20Developer%20%E2%80%A2%20API%20Architect%20%E2%80%A2%20Problem%20Solver&descSize=17&descAlignY=65&descColor=A0C4FF&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,20:0a0a2e,50:0d1b4b,80:0d2137,100:58A6FF&height=220&section=header&text=PETA%20SATISH%20KUMAR&fontSize=48&fontColor=ffffff&fontAlignY=42&fontAlign=50&desc=Full%20Stack%20Developer%20%E2%80%A2%20API%20Architect%20%E2%80%A2%20Problem%20Solver&descSize=17&descAlignY=65&descColor=A0C4FF&animation=fadeIn" width="100%"/>
+
+<!-- ✦ STAR FIELD LAYER ✦ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&section=header" width="100%"/>
 
 <br/>
 
@@ -23,10 +26,11 @@
 
 <br/>
 
-<!-- ═══════════════════════  ABOUT  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0d2137&height=3&section=header" width="100%"/>
+<!-- ✦ GALAXY DIVIDER ✦ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0a0a2e,100:0D1117&height=3&section=header" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20about%20me&fontSize=22&fontColor=58A6FF&fontAlign=8&fontAlignY=60" width="100%"/>
+<!-- ═══════════════════════  ABOUT  ═══════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0a0a2e,50:0d1b4b,100:0D1117&height=60&section=header&text=%3E%20about%20me&fontSize=22&fontColor=58A6FF&fontAlign=8&fontAlignY=60" width="100%"/>
 
 ```yaml
 name       : Peta Satish Kumar
@@ -41,7 +45,7 @@ passion    : Turning complex problems into elegant backend solutions
 <br/>
 
 <!-- ═══════════════════════  TECH STACK  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20tech%20stack&fontSize=22&fontColor=58A6FF&fontAlign=9&fontAlignY=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0a0a2e,50:0d1b4b,100:0D1117&height=60&section=header&text=%3E%20tech%20stack&fontSize=22&fontColor=58A6FF&fontAlign=9&fontAlignY=60" width="100%"/>
 
 <div align="center">
 
@@ -77,14 +81,27 @@ passion    : Turning complex problems into elegant backend solutions
 
 <br/>
 
-<!-- ═══════════════════════  HIGHLIGHTS  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20highlights&fontSize=22&fontColor=58A6FF&fontAlign=10&fontAlignY=60" width="100%"/>
+<!-- ═══════════════════════  ANIMATED SPACE BACKGROUND SECTION  ═══════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0a0a2e,50:0d1b4b,100:0D1117&height=60&section=header&text=%3E%20highlights&fontSize=22&fontColor=58A6FF&fontAlign=10&fontAlignY=60" width="100%"/>
 
-<table width="100%">
+<!-- ✦ GALAXY NEBULA BACKGROUND STRIP ✦ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,30:0d0d40,60:0a1a3e,100:050520&height=8&section=header" width="100%"/>
+
+<!-- ✦ ATOM / MOLECULE STRUCTURE (SVG via shield.io custom) ✦ -->
+<div align="center">
+
+<!-- Floating space orbs as background texture via readme images -->
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:020214,30:0a0a40,70:0d1b5e,100:020214&height=30&section=header&text=⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡%20⬡&fontSize=14&fontColor=1a2a6c&animation=twinkling" width="100%"/>
+
+</div>
+
+<!-- ✦ HIGHLIGHTS CARDS — GALAXY REDESIGN ✦ -->
+
+<table width="100%" style="border-collapse:separate; border-spacing:8px;">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-<img src="https://img.shields.io/badge/⚙️ API & Backend-0d2137?style=for-the-badge&logoColor=58A6FF"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,50:0d1040,100:0a1a50&height=38&section=header&text=%E2%9A%99%EF%B8%8F%20%20API%20%26%20Backend%20Engineering&fontSize=14&fontColor=58A6FF&fontAlign=50&fontAlignY=60" width="100%"/>
 
 ```
   ✦  REST API design & development
@@ -95,7 +112,7 @@ passion    : Turning complex problems into elegant backend solutions
   ✦  Resume generation systems
 ```
 
-<img src="https://img.shields.io/badge/🗄️ Database-0d2137?style=for-the-badge"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,50:0d1040,100:0a1a50&height=38&section=header&text=%F0%9F%97%84%EF%B8%8F%20%20Database%20%26%20Query%20Design&fontSize=14&fontColor=4DABCF&fontAlign=50&fontAlignY=60" width="100%"/>
 
 ```
   ✦  MySQL & relational design
@@ -105,9 +122,9 @@ passion    : Turning complex problems into elegant backend solutions
 ```
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-<img src="https://img.shields.io/badge/📊 Data & Automation-0d2137?style=for-the-badge"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0028,50:0d1040,100:0a1a50&height=38&section=header&text=%F0%9F%93%8A%20%20Data%20%26%20Automation%20Systems&fontSize=14&fontColor=A0C4FF&fontAlign=50&fontAlignY=60" width="100%"/>
 
 ```
   ✦  Pandas · data cleaning & pipelines
@@ -118,7 +135,7 @@ passion    : Turning complex problems into elegant backend solutions
   ✦  Power BI business dashboards
 ```
 
-<img src="https://img.shields.io/badge/🚀 Currently Exploring-0d2137?style=for-the-badge"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050520,50:0d0d50,100:0a0a30&height=38&section=header&text=%F0%9F%9A%80%20%20Currently%20Exploring&fontSize=14&fontColor=FFD700&fontAlign=50&fontAlignY=60" width="100%"/>
 
 ```
   ✦  System Design principles
@@ -131,10 +148,31 @@ passion    : Turning complex problems into elegant backend solutions
 </tr>
 </table>
 
+<!-- ✦ GALAXY BOTTOM STRIP ✦ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050520,30:0a0a40,60:0d1b5e,100:050520&height=8&section=header" width="100%"/>
+
+<!-- ✦ STARS ROW DIVIDER ✦ -->
+<div align="center">
+
+![Stars](https://img.shields.io/badge/✦-0D1117?style=flat-square&labelColor=0D1117&color=0D1117)
+![](https://img.shields.io/badge/%E2%80%A2%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2%20%E2%98%85%20%E2%80%A2%20%E2%80%A2-0a0a2e?style=flat-square&logoColor=58A6FF)
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════  ANIMATED BANNER — SPACE THEME  ═══════════════════════ -->
+<div align="center">
+
+<!-- Galaxy / Nebula animated banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020214,15:05052a,35:0a0a3e,55:0d1555,75:0d2045,100:58A6FF&height=80&section=header&text=⚛%20atom%20%7C%20✦%20stars%20%7C%20🌌%20galaxy%20%7C%20◉%20orbit&fontSize=14&fontColor=A0C4FF&fontAlign=50&fontAlignY=65&animation=twinkling" width="100%"/>
+
+</div>
+
 <br/>
 
 <!-- ═══════════════════════  STATS  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20stats&fontSize=22&fontColor=58A6FF&fontAlign=7&fontAlignY=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0a0a2e,50:0d1b4b,100:0D1117&height=60&section=header&text=%3E%20stats&fontSize=22&fontColor=58A6FF&fontAlign=7&fontAlignY=60" width="100%"/>
 
 <div align="center">
 
@@ -173,4 +211,5 @@ passion    : Turning complex problems into elegant backend solutions
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:0d2137,100:0D1117&height=120&section=footer" width="100%"/>
+<!-- ✦ GALAXY FOOTER WAVE ✦ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,20:0a0a2e,50:0d1b4b,80:0d2137,100:58A6FF&height=140&section=footer&text=⚛%20✦%20🌌%20✦%20◉&fontSize=20&fontColor=1a2a6c&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%"/>
