@@ -1,176 +1,282 @@
-<!-- ═══════════════════════  HEADER  ═══════════════════════ -->
-<div align="center">
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117"/>
+      <stop offset="45%" style="stop-color:#0a1929"/>
+      <stop offset="100%" style="stop-color:#0d2137"/>
+    </linearGradient>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:0d2137,100:58A6FF&height=200&section=header&text=PETA%20SATISH%20KUMAR&fontSize=48&fontColor=ffffff&fontAlignY=42&fontAlign=50&desc=Full%20Stack%20Developer%20%E2%80%A2%20API%20Architect%20%E2%80%A2%20Problem%20Solver&descSize=17&descAlignY=65&descColor=A0C4FF&animation=fadeIn" width="100%"/>
+    <!-- Card gradients -->
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2744;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0a1929;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d2137;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f2744;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1929;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f2744;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="card4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2744;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0a1929;stop-opacity:1"/>
+    </linearGradient>
 
-<br/>
+    <!-- Glow filters -->
+    <filter id="glow-blue">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#58A6FF" flood-opacity="0.15"/>
+    </filter>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=520&lines=%24+whoami+%E2%86%92+Python+%7C+FastAPI+%7C+Full+Stack;%24+building+%E2%86%92+APIs+%2B+Automations+%2B+Dashboards;%24+competing+%E2%86%92+CodeChef+Medalist+%F0%9F%8F%85;%24+learning+%E2%86%92+System+Design+%2B+Cloud+Architecture)](https://git.io/typing-svg)
+    <!-- Title gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58A6FF"/>
+      <stop offset="100%" style="stop-color:#A0C4FF"/>
+    </linearGradient>
 
-<br/>
+    <!-- Bubble gradient -->
+    <radialGradient id="bubble1" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#58A6FF;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#58A6FF;stop-opacity:0.04"/>
+    </radialGradient>
+    <radialGradient id="bubble2" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#A0C4FF;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#A0C4FF;stop-opacity:0.03"/>
+    </radialGradient>
+    <radialGradient id="bubble3" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#7dd3fc;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#7dd3fc;stop-opacity:0.03"/>
+    </radialGradient>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/peta-satish-kumar/)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:satishkumarp@aditya.ac.in)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_mr_kumar_777/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/)
+    <!-- Clip paths for cards -->
+    <clipPath id="clip1"><rect x="22" y="80" width="415" height="230" rx="14"/></clipPath>
+    <clipPath id="clip2"><rect x="463" y="80" width="415" height="230" rx="14"/></clipPath>
+    <clipPath id="clip3"><rect x="22" y="330" width="415" height="220" rx="14"/></clipPath>
+    <clipPath id="clip4"><rect x="463" y="330" width="415" height="220" rx="14"/></clipPath>
 
-<br/>
+    <!-- Animations -->
+    <style>
+      .star { animation: twinkle 3s infinite alternate; }
+      .star2 { animation: twinkle 4.5s infinite alternate-reverse; }
+      .star3 { animation: twinkle 2.5s infinite alternate; }
+      .bubble { animation: floatUp 8s infinite ease-in-out; }
+      .bubble2 { animation: floatUp 11s infinite ease-in-out reverse; }
+      .atom-orbit { animation: spin 12s linear infinite; transform-origin: center; }
+      .atom-orbit2 { animation: spin 18s linear infinite reverse; transform-origin: center; }
+      .atom-orbit3 { animation: spin 22s linear infinite; transform-origin: center; }
+      .dot-pulse { animation: pulse 2s infinite; }
 
-![Profile Views](https://komarev.com/ghpvc/?username=Satish-BD&color=58A6FF&style=flat-square&label=Profile+Views)
-![GitHub followers](https://img.shields.io/github/followers/Satish-BD?color=58A6FF&style=flat-square&logo=github&label=Followers)
+      @keyframes twinkle {
+        0% { opacity: 0.2; r: 1; }
+        50% { opacity: 0.9; }
+        100% { opacity: 0.4; r: 1.5; }
+      }
+      @keyframes floatUp {
+        0% { transform: translateY(0px) scale(1); opacity: 0.5; }
+        50% { transform: translateY(-18px) scale(1.05); opacity: 0.8; }
+        100% { transform: translateY(0px) scale(1); opacity: 0.5; }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
 
-</div>
+  <!-- ═══ BACKGROUND ═══ -->
+  <rect width="900" height="620" fill="url(#bgGrad)" rx="18"/>
 
-<br/>
+  <!-- ═══ STARS ═══ -->
+  <!-- Tiny random stars scattered across bg -->
+  <circle class="star" cx="45" cy="25" r="1" fill="#ffffff" opacity="0.6"/>
+  <circle class="star2" cx="130" cy="12" r="1.2" fill="#A0C4FF" opacity="0.7"/>
+  <circle class="star3" cx="210" cy="35" r="0.8" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" cx="320" cy="18" r="1.1" fill="#58A6FF" opacity="0.8"/>
+  <circle class="star2" cx="420" cy="8" r="0.9" fill="#ffffff" opacity="0.6"/>
+  <circle class="star3" cx="510" cy="28" r="1.3" fill="#A0C4FF" opacity="0.7"/>
+  <circle class="star" cx="600" cy="15" r="1" fill="#ffffff" opacity="0.5"/>
+  <circle class="star2" cx="690" cy="30" r="1.2" fill="#58A6FF" opacity="0.8"/>
+  <circle class="star3" cx="780" cy="10" r="0.8" fill="#ffffff" opacity="0.6"/>
+  <circle class="star" cx="855" cy="22" r="1" fill="#A0C4FF" opacity="0.7"/>
+  <circle class="star2" cx="70" cy="290" r="1" fill="#58A6FF" opacity="0.5"/>
+  <circle class="star3" cx="175" cy="420" r="1.2" fill="#ffffff" opacity="0.6"/>
+  <circle class="star" cx="440" cy="280" r="0.9" fill="#A0C4FF" opacity="0.7"/>
+  <circle class="star2" cx="840" cy="200" r="1.1" fill="#58A6FF" opacity="0.6"/>
+  <circle class="star3" cx="880" cy="390" r="1" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" cx="860" cy="530" r="1.2" fill="#A0C4FF" opacity="0.7"/>
+  <circle class="star2" cx="30" cy="560" r="0.9" fill="#58A6FF" opacity="0.6"/>
+  <circle class="star3" cx="450" cy="590" r="1.1" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" cx="750" cy="580" r="1" fill="#A0C4FF" opacity="0.8"/>
 
-<!-- ═══════════════════════  ABOUT  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0d2137&height=3&section=header" width="100%"/>
+  <!-- 4-pointed sparkle stars -->
+  <g filter="url(#glow-soft)">
+    <path d="M 80 60 L 82 55 L 84 60 L 82 65 Z" fill="#58A6FF" opacity="0.7"/>
+    <path d="M 77 60 L 82 58 L 87 60 L 82 62 Z" fill="#58A6FF" opacity="0.7"/>
+  </g>
+  <g filter="url(#glow-soft)">
+    <path d="M 820 55 L 822 49 L 824 55 L 822 61 Z" fill="#A0C4FF" opacity="0.6"/>
+    <path d="M 816 55 L 822 53 L 828 55 L 822 57 Z" fill="#A0C4FF" opacity="0.6"/>
+  </g>
+  <g filter="url(#glow-soft)">
+    <path d="M 450 570 L 452 564 L 454 570 L 452 576 Z" fill="#7dd3fc" opacity="0.5"/>
+    <path d="M 446 570 L 452 568 L 458 570 L 452 572 Z" fill="#7dd3fc" opacity="0.5"/>
+  </g>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20about%20me&fontSize=22&fontColor=58A6FF&fontAlign=8&fontAlignY=60" width="100%"/>
+  <!-- ═══ FLOATING BUBBLES ═══ -->
+  <circle class="bubble" cx="860" cy="150" r="45" fill="url(#bubble1)" stroke="#58A6FF" stroke-width="0.5" opacity="0.6"/>
+  <circle class="bubble2" cx="42" cy="480" r="32" fill="url(#bubble2)" stroke="#A0C4FF" stroke-width="0.5" opacity="0.5"/>
+  <circle class="bubble" cx="448" cy="305" r="20" fill="url(#bubble3)" stroke="#7dd3fc" stroke-width="0.4" opacity="0.4"/>
+  <circle class="bubble2" cx="880" cy="450" r="22" fill="url(#bubble1)" stroke="#58A6FF" stroke-width="0.4" opacity="0.4"/>
+  <circle class="bubble" cx="15" cy="150" r="18" fill="url(#bubble2)" stroke="#A0C4FF" stroke-width="0.3" opacity="0.35"/>
 
-```yaml
-name       : Peta Satish Kumar
-role       : Full Stack Developer (Backend-focused)
-location   : Andhra Pradesh, India 📍
-institute  : Aditya University
-achievement: CodeChef Medalist 🏅
-focus      : Clean APIs · Scalable Architecture · Data Automation
-passion    : Turning complex problems into elegant backend solutions
-```
+  <!-- ═══ ATOM STRUCTURES ═══ -->
+  <!-- Atom 1 — top right area -->
+  <g transform="translate(840, 85)">
+    <!-- nucleus -->
+    <circle cx="0" cy="0" r="5" fill="#58A6FF" opacity="0.9" filter="url(#glow-blue)"/>
+    <circle cx="0" cy="0" r="2" fill="#ffffff" opacity="0.8"/>
+    <!-- orbit 1 -->
+    <g class="atom-orbit">
+      <ellipse cx="0" cy="0" rx="22" ry="9" fill="none" stroke="#58A6FF" stroke-width="0.9" opacity="0.5"/>
+      <circle cx="22" cy="0" r="2.5" fill="#58A6FF" opacity="0.9" filter="url(#glow-soft)"/>
+    </g>
+    <!-- orbit 2 -->
+    <g class="atom-orbit2" style="transform:rotate(60deg)">
+      <ellipse cx="0" cy="0" rx="22" ry="9" fill="none" stroke="#A0C4FF" stroke-width="0.9" opacity="0.45"/>
+      <circle cx="-22" cy="0" r="2" fill="#A0C4FF" opacity="0.85"/>
+    </g>
+    <!-- orbit 3 -->
+    <g class="atom-orbit3" style="transform:rotate(120deg)">
+      <ellipse cx="0" cy="0" rx="22" ry="9" fill="none" stroke="#7dd3fc" stroke-width="0.9" opacity="0.4"/>
+      <circle cx="0" cy="9" r="2" fill="#7dd3fc" opacity="0.85"/>
+    </g>
+  </g>
 
-<br/>
+  <!-- Atom 2 — bottom left -->
+  <g transform="translate(60, 540)">
+    <circle cx="0" cy="0" r="4" fill="#58A6FF" opacity="0.85" filter="url(#glow-soft)"/>
+    <circle cx="0" cy="0" r="1.5" fill="#ffffff" opacity="0.8"/>
+    <g class="atom-orbit2">
+      <ellipse cx="0" cy="0" rx="18" ry="7" fill="none" stroke="#58A6FF" stroke-width="0.8" opacity="0.45"/>
+      <circle cx="18" cy="0" r="2" fill="#58A6FF" opacity="0.9"/>
+    </g>
+    <g class="atom-orbit3" style="transform:rotate(60deg)">
+      <ellipse cx="0" cy="0" rx="18" ry="7" fill="none" stroke="#A0C4FF" stroke-width="0.8" opacity="0.4"/>
+      <circle cx="-18" cy="0" r="1.8" fill="#A0C4FF" opacity="0.85"/>
+    </g>
+  </g>
 
-<!-- ═══════════════════════  TECH STACK  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20tech%20stack&fontSize=22&fontColor=58A6FF&fontAlign=9&fontAlignY=60" width="100%"/>
+  <!-- Atom 3 — center divider area (small) -->
+  <g transform="translate(450, 308)">
+    <circle cx="0" cy="0" r="3.5" fill="#7dd3fc" opacity="0.8" filter="url(#glow-soft)"/>
+    <g class="atom-orbit">
+      <ellipse cx="0" cy="0" rx="14" ry="6" fill="none" stroke="#7dd3fc" stroke-width="0.7" opacity="0.4"/>
+      <circle cx="14" cy="0" r="1.8" fill="#7dd3fc" opacity="0.9"/>
+    </g>
+    <g class="atom-orbit3" style="transform:rotate(90deg)">
+      <ellipse cx="0" cy="0" rx="14" ry="6" fill="none" stroke="#58A6FF" stroke-width="0.7" opacity="0.35"/>
+      <circle cx="0" cy="6" r="1.5" fill="#58A6FF" opacity="0.85"/>
+    </g>
+  </g>
 
-<div align="center">
+  <!-- ═══ CONNECTING DOTS LINE (decorative) ═══ -->
+  <g opacity="0.25">
+    <circle class="dot-pulse" cx="200" cy="58" r="1.5" fill="#58A6FF"/>
+    <circle class="dot-pulse" cx="230" cy="58" r="1.5" fill="#58A6FF" style="animation-delay:0.3s"/>
+    <circle class="dot-pulse" cx="260" cy="58" r="1.5" fill="#58A6FF" style="animation-delay:0.6s"/>
+    <circle class="dot-pulse" cx="650" cy="58" r="1.5" fill="#58A6FF" style="animation-delay:0.9s"/>
+    <circle class="dot-pulse" cx="680" cy="58" r="1.5" fill="#58A6FF" style="animation-delay:1.2s"/>
+    <circle class="dot-pulse" cx="710" cy="58" r="1.5" fill="#58A6FF" style="animation-delay:1.5s"/>
+  </g>
 
-**— Backend —**
+  <!-- ═══ SECTION TITLE ═══ -->
+  <text x="450" y="50" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="url(#titleGrad)" filter="url(#glow-blue)">
+    &gt; highlights
+  </text>
+  <line x1="160" y1="58" x2="330" y2="58" stroke="#58A6FF" stroke-width="0.8" opacity="0.35"/>
+  <line x1="570" y1="58" x2="740" y2="58" stroke="#58A6FF" stroke-width="0.8" opacity="0.35"/>
 
-[![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=58A6FF)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688)](https://fastapi.tiangolo.com)
-[![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=F29111)](https://mysql.com)
+  <!-- ════════════════ CARD 1 — API & Backend ════════════════ -->
+  <rect x="22" y="80" width="415" height="230" rx="14" fill="url(#card1)" filter="url(#shadow)"/>
+  <rect x="22" y="80" width="415" height="230" rx="14" fill="none" stroke="#58A6FF" stroke-width="0.8" opacity="0.35"/>
+  <!-- top accent line -->
+  <rect x="22" y="80" width="415" height="3" rx="2" fill="#58A6FF" opacity="0.8"/>
+  <!-- icon + title -->
+  <text x="50" y="113" font-family="'Courier New', monospace" font-size="15" fill="#58A6FF" font-weight="bold" filter="url(#glow-soft)">⚙️  API &amp; Backend</text>
+  <line x1="45" y1="122" x2="420" y2="122" stroke="#58A6FF" stroke-width="0.5" opacity="0.25"/>
+  <!-- items -->
+  <text x="50" y="147" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  REST API design &amp; development</text>
+  <text x="50" y="167" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  FastAPI · Flask · Python</text>
+  <text x="50" y="187" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  Auth systems &amp; Role-Based Access</text>
+  <text x="50" y="207" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  Third-party API integrations</text>
+  <text x="50" y="227" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  File upload &amp; processing systems</text>
+  <text x="50" y="247" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  Resume generation systems</text>
+  <!-- corner glow dot -->
+  <circle cx="418" cy="93" r="4" fill="#58A6FF" opacity="0.5" filter="url(#glow-soft)"/>
 
-**— Data & Intelligence —**
+  <!-- ════════════════ CARD 2 — Data & Automation ════════════════ -->
+  <rect x="463" y="80" width="415" height="230" rx="14" fill="url(#card2)" filter="url(#shadow)"/>
+  <rect x="463" y="80" width="415" height="230" rx="14" fill="none" stroke="#58A6FF" stroke-width="0.8" opacity="0.35"/>
+  <rect x="463" y="80" width="415" height="3" rx="2" fill="#A0C4FF" opacity="0.8"/>
+  <text x="490" y="113" font-family="'Courier New', monospace" font-size="15" fill="#A0C4FF" font-weight="bold" filter="url(#glow-soft)">📊  Data &amp; Automation</text>
+  <line x1="485" y1="122" x2="860" y2="122" stroke="#A0C4FF" stroke-width="0.5" opacity="0.25"/>
+  <text x="490" y="147" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#A0C4FF" opacity="0.8">✦</tspan>  Pandas · data cleaning &amp; pipelines</text>
+  <text x="490" y="167" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#A0C4FF" opacity="0.8">✦</tspan>  OCR-based structured extraction</text>
+  <text x="490" y="187" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#A0C4FF" opacity="0.8">✦</tspan>  Excel &amp; PDF data processing</text>
+  <text x="490" y="207" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#A0C4FF" opacity="0.8">✦</tspan>  UiPath automation workflows</text>
+  <text x="490" y="227" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#A0C4FF" opacity="0.8">✦</tspan>  Email automation on conditions</text>
+  <text x="490" y="247" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#A0C4FF" opacity="0.8">✦</tspan>  Power BI business dashboards</text>
+  <circle cx="858" cy="93" r="4" fill="#A0C4FF" opacity="0.5" filter="url(#glow-soft)"/>
 
-[![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=58A6FF)](https://pandas.pydata.org)
-[![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=4DABCF)](https://numpy.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)](https://tensorflow.org)
-[![Power BI](https://img.shields.io/badge/Power_BI-0D1117?style=for-the-badge&logo=powerbi&logoColor=F2C811)](https://powerbi.microsoft.com)
+  <!-- ════════════════ CARD 3 — Database ════════════════ -->
+  <rect x="22" y="330" width="415" height="220" rx="14" fill="url(#card3)" filter="url(#shadow)"/>
+  <rect x="22" y="330" width="415" height="220" rx="14" fill="none" stroke="#7dd3fc" stroke-width="0.8" opacity="0.3"/>
+  <rect x="22" y="330" width="415" height="3" rx="2" fill="#7dd3fc" opacity="0.8"/>
+  <text x="50" y="363" font-family="'Courier New', monospace" font-size="15" fill="#7dd3fc" font-weight="bold" filter="url(#glow-soft)">🗄️  Database</text>
+  <line x1="45" y1="372" x2="420" y2="372" stroke="#7dd3fc" stroke-width="0.5" opacity="0.25"/>
+  <text x="50" y="397" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#7dd3fc" opacity="0.8">✦</tspan>  MySQL &amp; relational design</text>
+  <text x="50" y="417" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#7dd3fc" opacity="0.8">✦</tspan>  Schema design &amp; normalization</text>
+  <text x="50" y="437" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#7dd3fc" opacity="0.8">✦</tspan>  Query optimization</text>
+  <text x="50" y="457" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#7dd3fc" opacity="0.8">✦</tspan>  Relational data modeling</text>
+  <text x="50" y="477" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#7dd3fc" opacity="0.8">✦</tspan>  Clean folder architecture</text>
+  <circle cx="418" cy="343" r="4" fill="#7dd3fc" opacity="0.5" filter="url(#glow-soft)"/>
 
-**— Frontend —**
+  <!-- ════════════════ CARD 4 — Currently Exploring ════════════════ -->
+  <rect x="463" y="330" width="415" height="220" rx="14" fill="url(#card4)" filter="url(#shadow)"/>
+  <rect x="463" y="330" width="415" height="220" rx="14" fill="none" stroke="#58A6FF" stroke-width="0.8" opacity="0.35"/>
+  <rect x="463" y="330" width="415" height="3" rx="2" fill="#58A6FF" opacity="0.9"/>
+  <!-- animated blinking dot -->
+  <circle class="dot-pulse" cx="478" cy="348" r="4" fill="#58A6FF" filter="url(#glow-blue)"/>
+  <text x="490" y="363" font-family="'Courier New', monospace" font-size="15" fill="#58A6FF" font-weight="bold" filter="url(#glow-soft)">🚀  Currently Exploring</text>
+  <line x1="485" y1="372" x2="860" y2="372" stroke="#58A6FF" stroke-width="0.5" opacity="0.25"/>
+  <text x="490" y="397" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  System Design principles</text>
+  <text x="490" y="417" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  Scalable distributed architectures</text>
+  <text x="490" y="437" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  Cloud deployment strategies</text>
+  <text x="490" y="457" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  Microservices patterns</text>
+  <text x="490" y="477" font-size="12.5" fill="#8B949E" font-family="'Courier New', monospace"><tspan fill="#58A6FF" opacity="0.8">✦</tspan>  Docker &amp; containerization</text>
+  <circle cx="858" cy="343" r="4" fill="#58A6FF" opacity="0.5" filter="url(#glow-soft)"/>
 
-[![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
-[![Angular](https://img.shields.io/badge/Angular-0D1117?style=for-the-badge&logo=angular&logoColor=DD0031)](https://angular.io)
-[![CSS3](https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  <!-- ═══ BOTTOM TAGLINE ═══ -->
+  <text x="450" y="597" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#58A6FF" opacity="0.45">
+    ── clean code · scalable systems · continuous improvement ──
+  </text>
 
-**— Tools & Workflow —**
-
-[![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)](https://git-scm.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
-[![Postman](https://img.shields.io/badge/Postman-0D1117?style=for-the-badge&logo=postman&logoColor=FF6C37)](https://postman.com)
-[![UiPath](https://img.shields.io/badge/UiPath-0D1117?style=for-the-badge&logo=uipath&logoColor=FA4616)](https://uipath.com)
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════  HIGHLIGHTS  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20highlights&fontSize=22&fontColor=58A6FF&fontAlign=10&fontAlignY=60" width="100%"/>
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/⚙️ API & Backend-0d2137?style=for-the-badge&logoColor=58A6FF"/>
-
-```
-  ✦  REST API design & development
-  ✦  FastAPI · Flask · Python
-  ✦  Auth systems & Role-Based Access
-  ✦  Third-party API integrations
-  ✦  File upload & processing systems
-  ✦  Resume generation systems
-```
-
-<img src="https://img.shields.io/badge/🗄️ Database-0d2137?style=for-the-badge"/>
-
-```
-  ✦  MySQL & relational design
-  ✦  Schema design & normalization
-  ✦  Query optimization
-  ✦  Relational data modeling
-```
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/📊 Data & Automation-0d2137?style=for-the-badge"/>
-
-```
-  ✦  Pandas · data cleaning & pipelines
-  ✦  OCR-based structured extraction
-  ✦  Excel & PDF data processing
-  ✦  UiPath automation workflows
-  ✦  Email automation on conditions
-  ✦  Power BI business dashboards
-```
-
-<img src="https://img.shields.io/badge/🚀 Currently Exploring-0d2137?style=for-the-badge"/>
-
-```
-  ✦  System Design principles
-  ✦  Scalable distributed architectures
-  ✦  Cloud deployment strategies
-  ✦  Microservices patterns
-```
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ═══════════════════════  STATS  ═══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d2137,100:0D1117&height=60&section=header&text=%3E%20stats&fontSize=22&fontColor=58A6FF&fontAlign=7&fontAlignY=60" width="100%"/>
-
-<div align="center">
-
-<a href="https://github.com/Satish-BD">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Satish-BD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&count_private=true&rank_icon=github"/>
-  &nbsp;
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satish-BD&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&langs_count=8"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Satish-BD">
-  <img width="60%" src="https://streak-stats.demolab.com?user=Satish-BD&theme=transparent&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&currStreakNum=ffffff&sideNums=ffffff&stroke=0D1117"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Satish-BD">
-  <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Satish-BD&bg_color=0D1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&area_color=1a2a4a&hide_border=true&custom_title=Contribution%20Graph"/>
-</a>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════  FOOTER  ═══════════════════════ -->
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="80%"/>
-
-<br/><br/>
-
-**`"Clean code. Scalable systems. Continuous improvement."`**
-
-<br/>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:0d2137,100:0D1117&height=120&section=footer" width="100%"/>
+</svg>
