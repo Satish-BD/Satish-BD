@@ -58,11 +58,16 @@ Backend-focused developer who builds reliable, scalable systems. I specialize in
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Satish-BD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=8b949e&hide=stars)
-&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Satish-BD&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&text_color=8b949e)
+<a href="https://github.com/Satish-BD">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Satish-BD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satish-BD&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&langs_count=8"/>
+</a>
 
-![Streak](https://nirzak-streak-stats.vercel.app/?user=Satish-BD&theme=tokyonight&hide_border=true&background=0d1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6)
+<br/>
+
+<a href="https://github.com/Satish-BD">
+  <img src="https://streak-stats.demolab.com?user=Satish-BD&theme=transparent&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&currStreakNum=ffffff&sideNums=ffffff"/>
+</a>
 
 </div>
 
@@ -70,17 +75,49 @@ Backend-focused developer who builds reliable, scalable systems. I specialize in
 
 ### `> highlights`
 
-```python
-skills = {
-    "APIs"        : ["REST", "FastAPI", "Flask", "Third-party integrations"],
-    "Data"        : ["Pandas", "OCR extraction", "Excel/PDF parsing", "Power BI"],
-    "Automation"  : ["UiPath", "Email workflows", "File processing pipelines"],
-    "DB"          : ["MySQL", "Relational design", "Query optimization"],
-    "Other"       : ["Auth & RBAC", "Git", "Clean architecture", "System design"],
-}
+<table>
+<tr>
+<td valign="top" width="50%">
 
-currently_learning = ["System Design", "Scalable Architectures", "Cloud Deployment"]
+**⚙️ &nbsp; API & Backend**
 ```
+✦ REST API design & development
+✦ FastAPI · Flask · Python
+✦ Auth systems & Role-Based Access
+✦ Third-party API integrations
+✦ File upload & processing systems
+```
+
+**🗄️ &nbsp; Database**
+```
+✦ MySQL & relational design
+✦ Schema design & normalization
+✦ Query optimization
+```
+
+</td>
+<td valign="top" width="50%">
+
+**📊 &nbsp; Data & Automation**
+```
+✦ Pandas · data cleaning & pipelines
+✦ OCR-based structured extraction
+✦ Excel & PDF data processing
+✦ UiPath automation workflows
+✦ Email automation systems
+✦ Power BI dashboards
+```
+
+**🚀 &nbsp; Currently Exploring**
+```
+✦ System Design principles
+✦ Scalable distributed architectures
+✦ Cloud deployment strategies
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -88,6 +125,6 @@ currently_learning = ["System Design", "Scalable Architectures", "Cloud Deployme
 
 *Clean code. Scalable systems. Continuous improvement.*
 
-![Profile Views](https://komarev.com/ghpvc/?username=Satish-BD&color=3B82F6&style=flat-square&label=profile+views)
+![Profile Views](https://komarev.com/ghpvc/?username=Satish-BD&color=58A6FF&style=flat-square&label=profile+views)
 
 </div>
